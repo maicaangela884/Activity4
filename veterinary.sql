@@ -72,3 +72,16 @@ VALUES (1, 'Shenna', 'Bellen', 'Japan', 09223456789, 'bellen@gmail.com' ),
         (9, 'Baeverly', 'Eroles', 'San Jose', 09926567833, 'Baeverlyeroles@gmail.com'),
         (10, 'Jhon Rhey', 'Tenorio', 'Taga sa kanila', 09133456789, 'tenors@gmail.com');
 
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES (1 'Max', 'Dog', 'Beagle', '2015-03-12', 'Male', 'Tricolor', 11),
+        (2, 'Bella', 'Cat', 'Maine Coon', '2019-09-05', 'Female', 'Brown Tabby', 12),
+        (3, 'Charlie', 'Dog', 'Corgi', '2018-01-22', 'Male', 'Tan/White', 13),
+        (4, 'Cleo', 'Cat', 'Sphynx', '2021-04-16', 'Female', 'Pink', 14),
+        (5, 'Zeus', 'Dog', 'Doberman', '2014-10-09', 'Male', 'Black/Tan', 15),
+        (6, 'Willow', 'Cat', 'Ragdoll', '2020-12-03', 'Female', 'Cream/Gray', 16),
+        (7, 'Buster', 'Dog', 'Boxer', '2013-07-19', 'Male', 'Fawn', 17),
+        (8, 'Nori', 'Cat', 'Bengal', '2022-02-11', 'Female', 'Spotted Brown', 18),
+        (9, 'Simba', 'Dog', 'Chow Chow', '2016-11-08', 'Male', 'Red', 19),
+        (10, 'Pepper', 'Cat', 'American Shorthair', '2017-05-27', 'Female', 'Silver Tabby', 20);
+
+        
