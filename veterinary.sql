@@ -130,3 +130,6 @@ VALUES  (1, 1, '2023-01-05 00:00:00', 1,'Health check', 'N/A', 'Regular checkup,
 
 ALTER TABLE owners
 ADD COLUMN registereddate DATE;
+
+ALTER TABLE invoices 
+RENAME COLUMN paymentdate TO paymenttime;
