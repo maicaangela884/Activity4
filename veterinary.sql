@@ -84,4 +84,15 @@ VALUES (1 'Max', 'Dog', 'Beagle', '2015-03-12', 'Male', 'Tricolor', 11),
         (9, 'Simba', 'Dog', 'Chow Chow', '2016-11-08', 'Male', 'Red', 19),
         (10, 'Pepper', 'Cat', 'American Shorthair', '2017-05-27', 'Female', 'Silver Tabby', 20);
 
-        
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES (1, 01, '2025-11-16', 'Check up'),
+        (2, 02, '2025-11-17', 'Vaccination'),
+        (3, 03, '2025-11-18', 'Grooming'),
+        (4, 04, '2025-11-19', 'Vaccination'),
+        (5, 05, '2025-11-20', 'Deworming'),
+        (6, 06, '2025-11-21', 'X-ray'),
+        (7, 07, '2025-11-22', 'Dental Cleaning'),
+        (8, 08, '2025-11-23', 'Check up'),
+        (9, 09, '2025-11-24', 'Flea Treatment'),
+        (10, 10, '2025-11-25', 'Blood Test');
+
