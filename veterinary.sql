@@ -59,3 +59,16 @@ CREATE TABLE medicalrecords(
     FOREIGN (animalid) references animals(animalid),
     FOREIGN (doctorid) references doctors(doctorid)
 );
+
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
+VALUES (1, 'Shenna', 'Bellen', 'Japan', 09223456789, 'bellen@gmail.com' ),
+        (2, 'Jim John', 'Ebreo', 'Rosario', 09123456789, 'ebreo@gmail.com'),
+        (3, 'Angel', 'Dinglasan', 'Adya', 09268065006, 'angeldinglasan@gmail.com'),
+        (4, 'Andrei Son', 'Castillo', 'Plaridel', 09510108106, 'andreicastillo@gmail.com'),
+        (5, 'Edna', 'Dinglasan', 'Bicol', 09525257895, 'edna@gmail.com'),
+        (6, 'Hannah', 'Cuevas', 'Cuenca', 09623456789, 'cuevas@gmail.com'),
+        (7, 'Monica', 'Pornela', 'BSU', 09723456789, 'pornela@gmail.com'),
+        (8, 'Maica', 'Del Rosario', 'Taga-Bundok', 09845618923, 'maicadr@gmail.com'),
+        (9, 'Baeverly', 'Eroles', 'San Jose', 09926567833, 'Baeverlyeroles@gmail.com'),
+        (10, 'Jhon Rhey', 'Tenorio', 'Taga sa kanila', 09133456789, 'tenors@gmail.com');
+
